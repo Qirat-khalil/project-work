@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`w-full relative z-50 transition-colors duration-300 ${servicesOpen ? "bg-white" : "bg-transparent"
+        className={`w-full relative z-50 transition-colors duration-300 ${servicesOpen ? "bg-FEF9F9" : "bg-transparent"
           }`}
       >
         <Container maxWidth="7xl">
