@@ -36,15 +36,15 @@ export default function Hero() {
                     },
                     "-=0.4"
                 )
-                .from(
-                    ".hero-btn",
-                    {
-                        y: 20,
-                        opacity: 0,
-                        stagger: 0.2,
-                    },
-                    "-=0.3"
-                )
+                // .from(
+                //     ".hero-btn",
+                //     {
+                //         y: 20,
+                //         opacity: 0,
+                //         stagger: 0.2,
+                //     },
+                //     "-=0.3"
+                // )
                 .from(
                     ".hero-stat",
                     {
@@ -126,7 +126,7 @@ export default function Hero() {
                     </p>
 
                     {/* <div className=" flex flex-wrap gap-5"> */}
-{/* 
+                    {/* 
                         <Link
                             href="/contact"
                             className="hero-btn group bg-primary hover:bg-primary-hover rounded-full px-8 py-4 text-white flex items-center gap-3 transition-all duration-300 hover:-translate-y-1"
@@ -173,8 +173,9 @@ export default function Hero() {
                             src="/images/herosec-img.png"
                             width={700}
                             height={700}
-                            alt=""
+                            alt="Hero Image"
                             className="rounded-3xl"
+                            priority
                         />
 
                     </div>
