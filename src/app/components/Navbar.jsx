@@ -44,7 +44,7 @@ const Navbar = () => {
             </a>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center shadow-2xl gap-8 bg-[#185964] px-8 py-4 rounded-full">
+            <nav className="hidden lg:flex items-center shadow-2xl gap-8 bg-[#0E3940] px-8 py-4 rounded-full">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
