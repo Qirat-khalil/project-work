@@ -68,10 +68,12 @@ const Benifits = () => {
         {/* -------- Heading + Button -------- */}
         <div className="text-center mb-14">
           <div className="benefit-badge text-center">
-            <button className="inline-flex items-center gap-2 px-5 py-1 rounded-full bg-[#0D1018] border border-white/10 text-xs tracking-wide text-white mb-4">
+            {/* <button className="inline-flex items-center gap-2 px-5 py-1 rounded-full bg-[#0D1018] border border-white/10 text-xs tracking-wide text-white mb-4">
               <Star size={14} className="text-white" />
               BENEFITS
-            </button>
+            </button> */}
+                                     <span className=" bg-[#0E444B] py-1 px-4 tracking-widest uppercase text-xs rounded-full border border-gray-900 text-gray-300" >BENEFITS</span>
+
           </div>
 
           <h2
