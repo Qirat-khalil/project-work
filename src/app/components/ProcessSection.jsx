@@ -290,7 +290,7 @@ const ProcessSection = () => {
   }, [step]);
 
   return (
-    <section ref={sectionRef} className="relative w-full text-white pb-20 pt-10">
+    <section ref={sectionRef} className="relative w-full  text-white pb-20 pt-10">
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Badge */}
         <div
@@ -335,7 +335,7 @@ const ProcessSection = () => {
         <div
           ref={cardRef}
           key={step}
-          className=" border border-t-2 bg-[#FEF9F9] border-gray-800 border-b-gray-900 rounded-xl p-4 pb-4"
+          className=" border border-t-2 bg-[#FEF9F9]  rounded-xl p-4 pb-4"
         >
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* Left Image */}

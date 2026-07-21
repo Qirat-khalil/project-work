@@ -12,7 +12,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 // import CtaSection from "./components/CTASection";
 // import ServiceCard from "./components/ServicesCard";
 // import ServicesSection from "./components/ServicesSection";
-// import Benifits from "./components/Benefits";
+import Benifits from "./components/Benefits";
 
 export default function Home() {
   return (
@@ -23,10 +23,10 @@ export default function Home() {
    <ProjectsSection/>
    {/* <Recentworksec/> */}
    <StorySection/>
+   <Benifits/>
    <TechSection/>
    <TestimonialsSection/>
    {/* <CtaSection/> */}
-   {/* <Benifits/> */}
    <Footer/>
    </>
   );

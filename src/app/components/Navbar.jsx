@@ -82,7 +82,7 @@ const Navbar = () => {
                 </span>
               </div>
 
-              <Link
+              {/* <Link
                 href="/work"
                 className="relative group"
                 onMouseEnter={() => setServicesOpen(false)}
@@ -91,7 +91,7 @@ const Navbar = () => {
                   Work
                 </span>
                 <span className="absolute bottom-0 left-0 h-[2px] w-full bg-[#0e444b] scale-x-0 origin-right transition-transform duration-700 ease-[cubic-bezier(0.77,0,0.175,1)] group-hover:scale-x-100 group-hover:origin-left"></span>
-              </Link>
+              </Link> */}
 
               <Link
                 href="/contact"

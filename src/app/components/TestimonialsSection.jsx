@@ -95,7 +95,7 @@ const TestimonialsSection = () => {
         {/* Heading */}
         <h2
           ref={headingRef}
-          className="text-3xl sm:text-5xl font-bold mb-4"
+          className="text-3xl sm:text-5xl font-bold mb-4 mt-2"
           style={{ fontFamily: "Valty DEMO" }}
         >
           What Clients Say About Us
